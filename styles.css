@@ -479,6 +479,19 @@ footer p {
     }
 }
 
+/* Hero image */
+.hero-image {
+    max-width: 720px;
+    width: 90%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto 20px auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    border: 6px solid rgba(255,255,255,0.08);
+    object-fit: cover;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .navbar .container {
